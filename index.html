@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madhusudan Bhukta | Backend-Focused Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Madhusudan Bhukta, a Backend-Focused Full-Stack Developer specializing in Node.js, Express, and scalable web apps."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="container hero-section fade-in-section">
+      <div class="hero-grid">
+        <div class="hero-image-container">
+          <div class="hero-image-placeholder">
+            <!-- Placeholder for professional photo -->
+            <img
+              src="img/professional-pic.jpg"
+              alt="Madhusudan Bhukta's professional photo"
+              class="hero-image"
+            />
+          </div>
+        </div>
+        <div class="hero-content">
+          <h1 class="hero-name">Madhusudan Bhukta</h1>
+          <h2 class="hero-role">Backend-Focused Full-Stack Developer</h2>
+          <p class="hero-subline text-secondary">
+            Backend-heavy full-stack developer focused on building scalable
+            systems, secure APIs, and production-ready backend logic. Strong in
+            JavaScript, Node.js, Express, MongoDB, and real deployment
+            workflows.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#" class="btn btn-primary">Resume</a>
+            <a
+              href="mailto:madhusudanbhukta.dev@gmail.com"
+              class="btn btn-secondary"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container projects-section fade-in-section" id="projects">
+      <h3 class="section-title">Selected Work</h3>
+      <div class="projects-list">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-preview">
+            <div
+              class="project-thumbnail-placeholder"
+              style="background: linear-gradient(45deg, #111, #222)"
+            >
+              ShopNexus UI
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-header">
+              <h4 class="project-name">ShopNexus</h4>
+              <span class="project-tag">E-commerce Platform</span>
+            </div>
+            <p class="project-summary text-secondary">
+              A full-stack e-commerce platform with secure authentication,
+              product management, cart syncing, and order pipeline logic.
+            </p>
+            <div class="project-tech">
+              <span>React</span><span>Node.js</span><span>Express</span
+              ><span>MongoDB</span><span>Redis</span>
+            </div>
+            <ul class="project-outcomes text-secondary">
+              <li>Secure HTTP-only cookie auth</li>
+              <li>Pagination, filtering, search</li>
+              <li>Backend-driven cart syncing</li>
+              <li>Full order pipeline with admin flows</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://shop-nexus-beta.vercel.app/"
+                target="_blank"
+                class="btn btn-secondary btn-sm"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/megabytis/ShopNexus"
+                target="_blank"
+                class="btn btn-secondary btn-sm"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-preview">
+            <div
+              class="project-thumbnail-placeholder"
+              style="background: linear-gradient(45deg, #1a1a1a, #2a2a2a)"
+            >
+              Blog WebApp UI
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-header">
+              <h4 class="project-name">Blog WebApp</h4>
+              <span class="project-tag">Content Platform</span>
+            </div>
+            <p class="project-summary text-secondary">
+              A blogging platform with user/admin roles, authentication, CRUD
+              posts, comments, likes, filtering, and pagination.
+            </p>
+            <div class="project-tech">
+              <span>React</span><span>Node.js</span><span>Express</span
+              ><span>MongoDB</span><span>JWT</span>
+            </div>
+            <ul class="project-outcomes text-secondary">
+              <li>Secure JWT auth with cookies</li>
+              <li>CRUD operations for posts</li>
+              <li>Search, tags, filters</li>
+              <li>Backend-driven pagination</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://blog-web-app-psi.vercel.app/"
+                target="_blank"
+                class="btn btn-secondary btn-sm"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/megabytis/blog-WebApp"
+                target="_blank"
+                class="btn btn-secondary btn-sm"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-preview">
+            <div
+              class="project-thumbnail-placeholder"
+              style="background: linear-gradient(45deg, #0f0f0f, #1f1f1f)"
+            >
+              Devtinder UI
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-header">
+              <h4 class="project-name">Devtinder</h4>
+              <span class="project-tag">Social Platform</span>
+            </div>
+            <p class="project-summary text-secondary">
+              A developer matchmaking platform inspired by Tinder but tailored
+              for devs.
+            </p>
+            <div class="project-tech">
+              <span>Node.js</span><span>Express</span><span>MongoDB</span
+              ><span>Socket.io</span>
+            </div>
+            <ul class="project-outcomes text-secondary">
+              <li>Secure auth & Profile creation</li>
+              <li>Matching system logic</li>
+              <li>CORS + state debugging solved</li>
+              <li>Deployed on Vercel + Render</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://dev-tinder-web-app-six.vercel.app/"
+                target="_blank"
+                class="btn btn-secondary btn-sm"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/megabytis/devTinder-WebApp"
+                target="_blank"
+                class="btn btn-secondary btn-sm"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container skills-section fade-in-section">
+      <h3 class="section-title">Tech Stack</h3>
+      <div class="skills-wrapper">
+        <div class="skills-marquee marquee-left">
+          <div class="skills-content">
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Node.js</span>
+            <span class="skill-pill">Express.js</span>
+            <span class="skill-pill">MongoDB</span>
+            <span class="skill-pill">REST APIs</span>
+            <span class="skill-pill">Authentication</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">GitHub</span>
+            <!-- Duplicate for seamless loop -->
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Node.js</span>
+            <span class="skill-pill">Express.js</span>
+            <span class="skill-pill">MongoDB</span>
+            <span class="skill-pill">REST APIs</span>
+            <span class="skill-pill">Authentication</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">GitHub</span>
+          </div>
+        </div>
+        <div class="skills-marquee marquee-right">
+          <div class="skills-content">
+            <span class="skill-pill">Postman</span>
+            <span class="skill-pill">Render</span>
+            <span class="skill-pill">Vercel</span>
+            <span class="skill-pill">VS Code</span>
+            <span class="skill-pill">Thunder Client</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">OpenAI API</span>
+            <span class="skill-pill">Debugging</span>
+            <!-- Duplicate for seamless loop -->
+            <span class="skill-pill">Postman</span>
+            <span class="skill-pill">Render</span>
+            <span class="skill-pill">Vercel</span>
+            <span class="skill-pill">VS Code</span>
+            <span class="skill-pill">Thunder Client</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">OpenAI API</span>
+            <span class="skill-pill">Debugging</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="container timeline-section fade-in-section">
+      <h3 class="section-title">Journey</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date text-secondary">Present</span>
+            <h4 class="timeline-role">Backend-Focused Full-Stack Developer</h4>
+            <p class="timeline-place text-secondary">
+              Self-Taught / Portfolio Building
+            </p>
+            <p class="timeline-desc text-secondary">
+              Building production-ready full-stack applications with a focus on
+              backend architecture, security, and scalability.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date text-secondary">Ongoing</span>
+            <h4 class="timeline-role">
+              Bachelor of Computer Applications (BCA)
+            </h4>
+            <p class="timeline-place text-secondary">University/College Name</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date text-secondary">202X</span>
+            <h4 class="timeline-role">Higher Secondary (12th)</h4>
+            <p class="timeline-place text-secondary">School Name</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Extra Section -->
+    <section class="container extra-section fade-in-section">
+      <h3 class="section-title">Beyond Code</h3>
+      <div class="extra-grid">
+        <div class="extra-card">
+          <h4>AI/ML Experiments</h4>
+          <p class="text-secondary">
+            Exploring OpenAI API integrations and building small AI-wrappers to
+            understand LLM capabilities.
+          </p>
+        </div>
+        <div class="extra-card">
+          <h4>System Design</h4>
+          <p class="text-secondary">
+            Studying backend scalability, database normalization, and API
+            security best practices.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container footer">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="text-secondary">
+            &copy; <span id="current-year"></span> Madhusudan Bhukta. Built with
+            ❤️.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:madhusudanbhukta.dev@gmail.com" class="text-secondary"
+            >Email</a
+          >
+          <a
+            href="https://github.com/megabytis"
+            target="_blank"
+            class="text-secondary"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/madhusudan-bhukta/"
+            target="_blank"
+            class="text-secondary"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
